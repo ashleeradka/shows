@@ -1,0 +1,38 @@
+#image {
+  float: left;
+  padding: 2%;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.column-1 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+.column-2 {
+    float: left;
+    width: 65%;
+    padding: 3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#banner:after {
+  clear: both;
+  padding-bottom: 1%;
+}
